@@ -15,7 +15,9 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.12.5",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "@babel/cli": "^7.13.16",
+    "@babel/preset-env": "^7.13.15"
   },
   "babel": {
     "presets": [
@@ -23,7 +25,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.13.16",
-    "@babel/preset-env": "^7.13.15"
+   
   }
 }
