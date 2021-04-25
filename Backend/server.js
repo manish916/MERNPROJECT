@@ -16,4 +16,4 @@ try {
     console.log(error)
 }
 
-app.listen(process.env.START_PORT, () => { console.log('listening at 4000') })
+app.listen(process.env.PORT, () => { console.log('listening at 4000') })
